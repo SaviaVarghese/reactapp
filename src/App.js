@@ -5,6 +5,8 @@ import Add from './components/Add';
 
 import Views from './components/Views';
 
+import Registers from './components/Registers';
+
 function App() {
   return (
     <div >
@@ -12,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/add' element={<Add/>}/>
         <Route path='/view' element={<Views/>}/>
+        <Route path='/reg' element={<Registers/>}/>
         
       </Routes>
       
