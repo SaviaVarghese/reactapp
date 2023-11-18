@@ -17,8 +17,9 @@ function App() {
         <Route path='/add' element={<Add/>}/>
         <Route path='/view' element={<Views/>}/>
         <Route path='/reg' element={<Registers/>}/>
-        <Route path='/log' element={<Login/>}/>
-        <Route path='/myview' element={<Myview/>}/>
+        <Route path='/' element={<Login/>}/>
+        <Route path='/search' element={<Myview/>}/>
+        
       </Routes>
       
       </BrowserRouter>
