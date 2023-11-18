@@ -7,6 +7,7 @@ import Views from './components/Views';
 
 import Registers from './components/Registers';
 import Login from './components/Login';
+import Myview from './components/Myview';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Route path='/view' element={<Views/>}/>
         <Route path='/reg' element={<Registers/>}/>
         <Route path='/log' element={<Login/>}/>
-        
+        <Route path='/myview' element={<Myview/>}/>
       </Routes>
       
       </BrowserRouter>
